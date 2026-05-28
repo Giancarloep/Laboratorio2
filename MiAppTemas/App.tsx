@@ -4,9 +4,9 @@ import TabsNavigator from './src/navigation/TabsNavigator';
 export default function App() {
 return (
 <ThemeProvider>
-<NavigationContainer>
-<TabsNavigator />
-</NavigationContainer>
+  <NavigationContainer>
+    <TabsNavigator />
+  </NavigationContainer>
 </ThemeProvider>
 );
 }
